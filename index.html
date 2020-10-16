@@ -28,14 +28,15 @@
 
   .show {
     animation-name: animateShowHide;
-    animation-duration: 4s;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
   }
 
   @keyframes animateShowHide {
     0%   {top: -100px;}
-    20%  {top: 0px;}
-    80%  {top: 0px;}
-    100% {top: -100px;}
+    30%   {top: 0px;}
+    100%  {top: 0px;}
   }
 </style>
 
